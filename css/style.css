@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Lora&family=Roboto:wght@300&display=swap");
+
+@import url("components/products_dresses.css");
+@import	url("components/container.css");
+/*header*/
+@import url("components/scrollmenu.css");
+@import url("components/logo.css");
+@import url("components/search-bar.css");
+@import url("components/corner-header.css");
+/*contact-us*/
+@import url("components/contact-us-form.css");
+/*footer*/
+@import url("components/bottom-footer.css");
+@import url("components/banners.css");
+@import url("components/btn-white.css");
+/*product-page*/
+@import url("components/pictures.css");
+@import url("components/btn-sizes.css");
+@import url("components/btn-add-to-cart.css");
+@import url("components/product-page.css");
+@import url("components/about-us-our-engagements.css");
+
+
+body{
+	font-family: 'Dosis', serif;
+	font-size: 18px;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #FFFFFF;
+}
+
+.cartes-bancaires {
+width: 250px;
+position: absolute;
+height: 29px;
+left: 720px;
+top: 750px; }
+
+.fillette {
+	position: absolute;
+width: 66px;
+height: 71px;
+left: 450px;
+top: 100px;
+
+background: url(.jpg);
+border: 0.5px solid #2E2C2C;
+box-sizing: border-box;
+}
+
+/*shopping cart*/
+
+[class*="entypo-"]:before { font-family: 'Dosis', sans-serif; }
+
+body {
+  font: 300 1.25em/1.4 "Dosis", sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1, .sub-heading {
+  text-align: center;
+  margin: .5rem 0 1rem;
+  font: 300 1.25em/1.4 "Dosis", sans-serif;
+  color: #686868;
+}
+
+h1{
+	font-size: 2em;
+}
+.sub-heading {
+  font-size: .75em;
+  font-weight: 300;
+}
+
+/**
+ * @section: utilities;*/
+._grid {
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important;
+  text-rendering: optimizespeed;
+}
+._grid:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+._column {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+._btn {
+  display: inline-block;
+  background-color: #bdc3c7;
+  border: none;
+  padding: .25em 2em;
+  text-align: center;
+  font-weight: 300;
+  border-radius: 5.5%;
+}
+._btn:hover,
+.cart-totals:hover ._btn {
+  background-color: #F38181;
+  color: #ecf0f1;
+}
+
+/**
+ * @section: shopping-cart;
+ */
+.shopping-cart {
+  width: 80%;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+/**
+ * @extends: _grid;
+ */
+.shopping-cart--list-item {
+  border: 1px solid #bdc3c7;
+  margin-bottom: 3rem;
+  height: 10rem;
+  overflow: hidden;
+}
+.shopping-cart--list-item:hover,
+.shopping-cart--list-item:hover * {
+  border-color: #F38181;
+}
+.shopping-cart--list-item > ._column {
+    height: 100%; /* make vertical lines match */
+}
+
+/**
+ * @section: product-image;
+ * @extends: _column;
+ */
+.product-image img{
+  width: 160px;
+  height:160px;
+  background: <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"> no-repeat center / cover transparent;
+}
+
+/**
+ * @section: product-info;
+ * @extends: _column;
+ */
+.product-info {
+  width: 70.832119%;
+  padding: .5rem;
+}
+.product-name {
+  font: 300 2.4em/1 "Dosis", sans-serif;
+  letter-spacing: -.025em;
+  margin: 0 0 .125em;
+}
+.price {
+	font: 300 2.4em/1 "Dosis", sans-serif;
+  line-height: 1;
+  text-align: right;
+}
+.product-single-price {
+  margin-top: -1rem;
+  font-size: 2.4em;
+}
+
+/**
+ * @section: product-modifiers;
+ * @extends: _column;
+ */
+.product-modifiers {
+  width: 12.496358%;
+  text-align: right;
+  border-left: 1px solid #bdc3c7;
+}
+.product-subtract,
+.product-plus,
+.product-qty {
+  width: 33.330557%;
+  background-color: transparent;
+  color: #686868;
+  text-align: center;
+}
+.product-qty {
+  padding: .35em .75em;
+}
+
+.product-remove {
+  font-size: .875em;
+  margin-top: 3.35rem;
+  background-color: #95E1D3;
+  color: #ecf0f1;
+  width: 100%;
+  visibility: hidden;
+}
+.product-modifiers:hover .product-remove {
+  visibility: visible;
+}
+.product-remove:before {
+  margin-right: .5em;
+}
+.product-remove:hover {
+  background-color: #F38181;
+}
+
+.product-total-price {
+  border-top: 1px solid #bdc3c7;
+  color: #95a5a6;
+  font-size: 1.25em;
+  padding: .5rem;
+}
+.shopping-cart--list-item:hover .product-total-price {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+
+/**
+ * @section: cart-totals;
+ * @extends: _grid;
+ */
+.cart-totals {
+  border-top: 1px solid #bdc3c7;
+  margin-bottom: 3rem;
+}
+.cart-totals ._column {
+  width: 19.984013%;
+  padding: .5rem;
+  line-height: 1.2;
+}
+.cart-totals ._column:not(:last-of-type) {
+  border-right: 1px solid #bdc3c7;
+}
+.cart-totals ._column:first-of-type {
+  padding-left: 0;
+}
+.cart-totals-key {
+  font-size: 1.125em;
+  color: #bdc3c7;
+}
+.cart-totals ._column:hover .cart-totals-value,
+.cart-totals ._column:hover .cart-totals-key {
+  color: #333;
+}
+.cart-totals-value {
+  font-size: 2em;
+}
+._column.checkout {
+  text-align: right;
+  padding: 0;
+  margin-top: 1.5em;
+  vertical-align: middle;
+}
+.checkout-btn:before {
+  margin-right: .5em;
+}
+._btn.checkout-btn:hover {
+  background-color: #F38181;
+}

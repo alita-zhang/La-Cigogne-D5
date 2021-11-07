@@ -1,0 +1,15 @@
+.plus-minus-input {
+align-items: center;
+width: 10px;}
+
+.input-group-field {
+
+text-align: center;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+padding: 1rem;
+&::-webkit-inner-spin-button,
+::-webkit-outer-spin-button
+appearance: none;
+}
+

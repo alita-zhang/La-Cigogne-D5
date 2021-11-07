@@ -1,0 +1,41 @@
+.section-details{
+font-family: Dosis;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #2E2C2C;
+left: 30px;
+}
+
+.dress-two{
+height: 250px;
+width: 150px;
+top: 0px;
+left: 0px;
+}
+
+.dress-three{
+height: 250px;
+width: 150px;
+top: 250px;
+left: 0px;
+}
+
+.dress-one{
+height: 600px;
+width: 400px;
+top: 0px;
+left: 200px;
+}
+
+.product-details{
+position: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+.pictures-section{
+height: 850px;
+width: 600px;
+}

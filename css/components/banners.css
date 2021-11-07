@@ -1,0 +1,106 @@
+.new-coll-banner{
+	background-image: url(../../images/new_collection.jpg);
+	color: black;
+	padding: 50px 0px;
+	height: 100px;
+	width: 450px;
+	background-size: cover;
+	background-position: center;
+}
+
+.new-coll-banner a{
+	margin: 0;
+	left: 40%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+.new-coll-banner h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.our-2ndhand-coll-banner{
+	background-image: url(../../images/second_hand.jpg);
+	color: black;
+	padding: 50px 0px;
+	height: 100px;
+	width: 450px;
+	background-size: cover;
+	background-position: center;
+}
+
+.our-2ndhand-coll-banner a{
+	margin: 0;
+	left: 40%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+.our-2ndhand-coll-banner h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.rent-and-change{
+	background-image: url(../../images/rent_and_change.jpg);
+	color: black;
+	padding: 50px 0px;
+	height: auto;
+	width: 950px;
+	background-size: cover;
+	background-position: center;
+}
+
+.rent-and-change a{
+	margin: 0;
+	left: 45%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+.rent-and-change h1{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rent-and-change h2{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.rent-and-change h3{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+
+.small-container{
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
